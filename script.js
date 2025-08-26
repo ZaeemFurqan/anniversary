@@ -42,7 +42,7 @@ updateCountdown();
 const puzzleContainer=document.getElementById('puzzleContainer');
 const rows=2,cols=3,pieces=[],correctOrder=[];
 const img=new Image();
-img.src='photo_of_us.jpg';
+img.src='photoofus.jpg';
 img.onload=()=>{
     const pieceWidth=140,pieceHeight=140;
     for(let r=0;r<rows;r++){
